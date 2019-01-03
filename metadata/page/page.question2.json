@@ -1,0 +1,77 @@
+{
+  "_id": "page.question2",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.question2--checkboxes",
+      "_type": "checkboxes",
+      "hint": "Select all that apply",
+      "items": [
+        {
+          "_id": "page.question2--checkboxes--checkbox.auto_name__2",
+          "_type": "checkbox",
+          "label": "Parenting plan",
+          "name": "attempt_parenting_plan",
+          "value": "parenting_plan"
+        },
+        {
+          "_id": "page.question2--checkboxes--checkbox.auto_name__12",
+          "_type": "checkbox",
+          "label": "Letter templates",
+          "name": "attempt_letter",
+          "value": "attempt_letter"
+        },
+        {
+          "_id": "page.question2--checkboxes--checkbox.auto_name__13",
+          "_type": "checkbox",
+          "label": "Negotiation tools",
+          "name": "attempt_negotiation",
+          "value": "attempt_negotiation"
+        },
+        {
+          "_id": "page.question2--checkboxes--checkbox.auto_name__14",
+          "_type": "checkbox",
+          "label": "Separated Parents Information Programme (SPIP)",
+          "name": "attempt_SPIP",
+          "value": "attempt_SPIP"
+        },
+        {
+          "_id": "page.question2--checkboxes--checkbox.auto_name__15",
+          "_type": "checkbox",
+          "label": "Mediation (or a Mediation Information and Assessment Meeting)",
+          "name": "attempt_mediation_or_MIAM",
+          "value": "attempt_mediation_or_MIAM"
+        },
+        {
+          "_id": "page.question2--checkboxes--checkbox.auto_name__16",
+          "_type": "checkbox",
+          "label": "Speaking to a solicitor or lawyer",
+          "name": "attempt_solicitor_or_lawyer",
+          "value": "attempt_solicitor_or_lawyer"
+        },
+        {
+          "_id": "page.question2--checkboxes--checkbox.auto_name__17",
+          "_type": "checkbox",
+          "label": "Going to court",
+          "name": "attempt_court",
+          "value": "attempt_court"
+        },
+        {
+          "_id": "page.question2--checkboxes--checkbox.auto_name__18",
+          "_type": "checkbox",
+          "label": "Other",
+          "name": "attempt_other",
+          "show": true,
+          "value": "attempt_other"
+        }
+      ],
+      "legend": "What other ways of agreeing child arrangements have you already tried?"
+    }
+  ],
+  "show": {
+    "identifier": "auto_name__1",
+    "operator": "is",
+    "value": "attempt_yes"
+  },
+  "url": "question2"
+}

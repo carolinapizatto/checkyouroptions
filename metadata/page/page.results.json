@@ -1,0 +1,90 @@
+{
+  "_id": "page.results",
+  "_type": "page.exit",
+  "body": "Mediation sessions are run by professionals who help you try to reach an agreement without going to court. It isn’t relationship counselling and you don’t have to be in the same room as the other parent.",
+  "components": [
+    {
+      "_id": "page.results--inset",
+      "_type": "inset",
+      "html": "[Find out more about professional mediation](https://fj-cait-staging.apps.cloud-platform-live-0.k8s.integration.dsd.io/professional-mediation)"
+    },
+    {
+      "_id": "page.results--content--2",
+      "_type": "content",
+      "html": "### You might also benefit from\r\n\r\n\r\n**[The Separated Parents Information Programme](https://www.cafcass.gov.uk/grown-ups/parents-and-carers/divorce-and-separation/separated-parents-information-programme/)**\r\n\r\nHelps you understand how to put your children first and manage disputes with the other parent. There are similar programmes in Wales and Scotland.",
+      "show": true
+    },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.results--content--3",
+      "_type": "content",
+      "html": "**[Become emotionally ready](https://www.cafcass.gov.uk/grown-ups/parents-and-carers/divorce-and-separation/childs-voice-separation/)**\r\n\r\nEmotional readiness is being able to put aside your own feelings and any negative thoughts about the other parent. If you’re emotionally ready you’ll have a better chance of making an agreement that’s in the best interests of your children.",
+      "show": {
+        "any": [
+          {
+            "identifier": "auto_name__3",
+            "operator": "is",
+            "value": "auto_value__11"
+          },
+          {
+            "identifier": "auto_name__3",
+            "operator": "is",
+            "value": "auto_value__12"
+          }
+        ],
+        "conditionsType": "any"
+      }
+    },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.results--content--4",
+      "_type": "content",
+      "html": "**[Tips on how to communicate with your ex](/edit)**\r\n\r\nThe Parent Connection offers tips on how to communicate with your ex.",
+      "show": {
+        "any": [
+          {
+            "identifier": "auto_name__6",
+            "operator": "is",
+            "value": "communication_low_depends"
+          },
+          {
+            "identifier": "auto_name__6",
+            "operator": "is",
+            "value": "communication_low_difficult"
+          },
+          {
+            "identifier": "auto_name__6",
+            "operator": "is",
+            "value": "communication_low_extremelly_difficult"
+          }
+        ],
+        "conditionsType": "any"
+      }
+    },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.results--content",
+      "_type": "content",
+      "html": "### Other ways to reach an agreement\r\n\r\n**[Parenting plan](/edit)**\r\n\r\nA written or online plan that you use to prepare, discuss and agree arrangements. It’s not legally binding but it can help you make plans that meet your children's needs."
+    },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.results--details",
+      "_type": "details",
+      "html": "[Letter templates](/edit)\r\n\r\n[Negotiating tools](/edit)\r\n\r\n[Speak to a lawyer or solicitor](/edit)\r\n\r\n[Going to court](/edit)",
+      "summary": "Show more ways"
+    }
+  ],
+  "heading": "Professional mediation seems to be the most suitable way for you to agree child arrangements",
+  "lede": "This means going to court might not be right for you.",
+  "show": true,
+  "url": "results_mediation"
+}

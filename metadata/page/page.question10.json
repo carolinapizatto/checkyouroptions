@@ -1,0 +1,40 @@
+{
+  "_id": "page.question10",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.question10--radios.auto_name__2",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.question10--radios.auto_name__2--radio.auto_value__1",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "court_order_yes"
+        },
+        {
+          "_id": "page.question10--radios.auto_name__2--radio.auto_value__2",
+          "_type": "radio",
+          "label": "No",
+          "value": "court_order_no"
+        }
+      ],
+      "legend": "Is there an existing court order in place?",
+      "name": "auto_name__2"
+    }
+  ],
+  "show": {
+    "all": [
+      {
+        "identifier": "auto_name__1",
+        "operator": "is",
+        "value": "attempt_yes"
+      },
+      {
+        "identifier": "attempt_court",
+        "operator": "defined"
+      }
+    ]
+  },
+  "url": "question10"
+}

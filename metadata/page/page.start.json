@@ -1,0 +1,42 @@
+{
+  "_id": "page.start",
+  "_type": "page.start",
+  "body": "Use this service to find out:\r\n* what is the most suitable way for you to agree child arrangements\r\n* if going to court is right for you",
+  "components": [
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.start--inset",
+      "_type": "inset",
+      "html": "You’ll be asked general questions about your relationship with the other parent and previous attempts to agree child arrangements with them."
+    },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.start--content",
+      "_type": "content",
+      "html": "You're completely anonymous while using this service and no one will ever see your answers."
+    }
+  ],
+  "heading": "Check your options for child arrangements",
+  "lede": "Child arrangements is also known as contact, access or custody. For example, you may need to decide where your children will live or rearrange the times they see you.",
+  "steps": [
+    "page.question1",
+    "page.question2",
+    "page.question3",
+    "page.question4",
+    "page.question5",
+    "page.question6",
+    "page.question7",
+    "page.question8",
+    "page.question9",
+    "page.question10",
+    "page.results_court2",
+    "page.new_results",
+    "page.results_parenting_plan",
+    "page.results"
+  ],
+  "url": "/"
+}

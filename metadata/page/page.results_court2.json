@@ -1,0 +1,44 @@
+{
+  "_id": "page.results_court2",
+  "_type": "page.exit",
+  "body": "You told us:\r\n\r\n* You aren't able to get in touch with the other parent\r\n\r\n* You have concerns about the safety of you and your children",
+  "components": [
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.results_court2--content",
+      "_type": "content",
+      "html": "###\r\nYou’ll need to go to court if you’ve tried other suitable options and still can’t agree arrangements, or you’re worried about the welfare of you or your children."
+    },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.results_court2--inset",
+      "_type": "inset",
+      "html": "[Find out more about going to court](/edit)"
+    },
+    {
+      "_id": "page.results_court2--content--2",
+      "_type": "content",
+      "html": "### Other ways to reach an agreement\r\n\r\n**Shuttle mediation**\r\n\r\n[Mediation](/edit) sessions are run by professionals who help you try to reach an agreement without going to court. Your mediator may suggest that you and the other parent sit in separate rooms while the mediator ‘shuttles’ between you. This is a good option if you’d prefer not to meet the other parent face-to-face or don’t feel safe to do so."
+    }
+  ],
+  "heading": "Going to court seems to be the most suitable way for you to agree child arrangements",
+  "show": {
+    "all": [
+      {
+        "identifier": "auto_name__5",
+        "operator": "is",
+        "value": "get_in_touch_no"
+      },
+      {
+        "identifier": "auto_name__9",
+        "operator": "is",
+        "value": "safety_concerns_yes"
+      }
+    ]
+  },
+  "url": "results_court"
+}

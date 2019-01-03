@@ -1,0 +1,56 @@
+{
+  "_id": "page.results_parenting_plan",
+  "_type": "page.exit",
+  "body": "A parenting plan is a written or online plan that you use to prepare, discuss and agree arrangements. It’s not legally binding but it can help you make plans that meet your children's needs.\r\n\r\nUsing a parenting plan:\r\n\r\n* helps you know what’s expected of you\r\n* confirms your agreements (for example, where your children will live)\r\n* works as a record for you to go back to",
+  "components": [
+    {
+      "_id": "page.results_parenting_plan--inset",
+      "_type": "inset",
+      "html": "You can choose to use an [online parenting plan](/edit) or a [plan you can print out](/edit). The printable copy is also available in [Welsh (PDF file - 3.9Mb)](/edit)."
+    },
+    {
+      "_id": "page.results_parenting_plan--content",
+      "_type": "content",
+      "html": "### You might also benefit from\r\n\r\n**Letter templates**\r\n\r\nChild Law Advice has a useful [letter template (PDF file - 234kb)](/edit) if you prefer to negotiate by letter or email.\r\n\r\n**Negotiating tools**\r\n\r\n[The Negotiations Cycle tool](/edit) lets you break down your negotiations into 4 stages.\r\n\r\nGingerbread has an [arrangements factsheet](/edit) that includes tips on making negotiating work."
+    },
+    {
+      "_id": "page.results_parenting_plan--content--2",
+      "_type": "content",
+      "html": "### Other ways to reach an agreement\r\n\r\n**[Professional mediation](/edit)**\r\n\r\nMediation sessions are run by professionals who help you try to reach an agreement without going to court. It isn’t relationship counselling and you don’t have to be in the same room as the other parent."
+    },
+    {
+      "_id": "page.results_parenting_plan--details",
+      "_type": "details",
+      "html": "[Speak to a lawyer or solicitor](/edit)\r\n\r\n[Going to court](/edit)",
+      "summary": "See more ways"
+    }
+  ],
+  "heading": "Parenting plan seems to be the most suitable way for you to agree child arrangements",
+  "lede": "This means going to court might not be right for you.",
+  "show": {
+    "all": [
+      {
+        "identifier": "auto_name__4",
+        "operator": "startsWith",
+        "value": "conflict_low"
+      },
+      {
+        "identifier": "auto_name__6",
+        "operator": "startsWith",
+        "value": "communication_high"
+      },
+      {
+        "identifier": "auto_name__9",
+        "operator": "is",
+        "value": "safety_concerns_no"
+      },
+      {
+        "identifier": "auto_name__1",
+        "negated": true,
+        "operator": "match",
+        "value": "attempt_parenting_plan"
+      }
+    ]
+  },
+  "url": "results_parenting_plan"
+}

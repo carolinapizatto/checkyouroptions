@@ -1,0 +1,31 @@
+{
+  "_id": "page.new_results",
+  "_type": "page.exit",
+  "body": "Your mediator may suggest that you and the other parent sit in separate rooms while the mediator ‘shuttles’ between you. This is a good option if you’d prefer not to meet the other parent face-to-face or don’t feel safe to do so.",
+  "components": [
+    {
+      "_id": "page.new_results--inset",
+      "_type": "inset",
+      "html": "[Find out more about shuttle mediation](/edit)"
+    },
+    {
+      "_id": "page.new_results--content",
+      "_type": "content",
+      "html": "### Other ways to reach an agreement\r\n\r\n**Speaking to a solicitor or a lawyer**\r\n\r\nWith [collaborative law](/edit) or [lawyer negotiation](/edit) you’ll have legal support throughout. These options can also be quicker and less stressful than court."
+    },
+    {
+      "_id": "page.new_results--details",
+      "_type": "details",
+      "html": "[Going to court](/edit)",
+      "summary": "See more ways"
+    }
+  ],
+  "heading": "Shuttle mediation seems to be the most suitable way for you to agree child arrangements",
+  "lede": "This means going to court might not be right for you.",
+  "show": {
+    "identifier": "auto_name__9",
+    "operator": "is",
+    "value": "safety_concerns_yes"
+  },
+  "url": "results_shuttle_mediation"
+}
